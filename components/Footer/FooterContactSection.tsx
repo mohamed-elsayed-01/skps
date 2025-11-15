@@ -19,7 +19,7 @@ export default function FooterContactSection() {
         </div>
 
         <div>
-          
+
           <p className="mt-4 mb-2">Email:</p>
           <p>info@skps.com</p>
           <p>khaldoun.afifi@skps.com</p>

@@ -12,7 +12,7 @@ export default function FooterBottomBar() {
             [PRIVACY POLICY]
           </Link>
           <Link href="/terms" className="hover:text-white">
-            [TERM OF SERVICE]
+            [TERMS OF SERVICE]
           </Link>
         </div>
 
