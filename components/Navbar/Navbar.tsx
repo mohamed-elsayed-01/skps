@@ -1,7 +1,7 @@
+import NavbarButton from "@/components/Navbar/navbar-button";
+import NavbarLinks from "@/components/Navbar/navbar-links";
+import NavbarLogo from "@/components/Navbar/navbar-logo";
 
-import NavbarLogo from "@/components/Navbar/NavbarLogo";
-import NavbarLinks from "@/components/Navbar/NavbarLinks";
-import NavbarButton from "@/components/Navbar/NavbarButton";
 
 export default function Navbar() {
   return (
@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
         <NavbarLogo />
         <NavbarLinks />
-        <NavbarButton />7
+        <NavbarButton />
       </div>
     </nav>
   );

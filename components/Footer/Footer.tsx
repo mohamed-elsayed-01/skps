@@ -1,8 +1,8 @@
-import FooterAbout from "./FooterAbout";
-import FooterServices from "./FooterServices";
-import FooterNavigation from "./FooterNavigation";
-import FooterContactSection from "./FooterContactSection";
-import FooterBottomBar from "./FooterBottomBar";
+import FooterAbout from "@/components/Footer/footer-about";
+import FooterBottomBar from "@/components/Footer/footer-bottom-bar";
+import FooterContactSection from "@/components/Footer/footer-contact-section";
+import FooterNavigation from "@/components/Footer/footer-navigation";
+import FooterServices from "@/components/Footer/footer-services";
 
 export default function Footer() {
   return (

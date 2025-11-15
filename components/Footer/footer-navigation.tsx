@@ -1,4 +1,4 @@
-import navLinks from "@/constants/footer";
+import { navLinks } from "@/constants/footer";
 import Link from "next/link";
 
 export default function FooterNavigation() {

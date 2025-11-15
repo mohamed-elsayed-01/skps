@@ -1,3 +1,16 @@
+
+
+const services = [
+    "Composite Engineering Services",
+    "Corrosion Prevention Coatings",
+    "Coating removal by induction",
+    "High Performance Coatings",
+    "Corrosion Inhibitor System",
+    "Ultrasonic Thickness Gauge",
+    "Tank Vents & Flame Arresters",
+    "Cold welding polymeric solutions",
+];
+
 const navLinks = [
     { label: "Home", href: "/" },
     { label: "About Us", href: "/about" },
@@ -8,4 +21,7 @@ const navLinks = [
     { label: "Contact Us", href: "/contact" },
 ];
 
-export default navLinks
+export {
+    services,
+    navLinks
+}
