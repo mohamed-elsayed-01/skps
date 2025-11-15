@@ -1,0 +1,12 @@
+reviews:
+  enabled: true
+  reviewers:
+    - ai
+  path_filters:
+    - "**/*.js"
+    - "**/*.ts"
+    - "**/*.tsx"
+    - "**/*.jsx"
+
+language: auto
+autofix: true
