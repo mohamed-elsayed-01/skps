@@ -2,7 +2,7 @@ import { FeatureItem } from "../../constants";
 
 const FeatureCard = ({ id, title, description, isActive }: FeatureItem) => {
   return (
-    <div className="">
+    <div>
       <div className="flex items-center mb-6 gap-1">
         <h1
           className={`
@@ -14,8 +14,7 @@ const FeatureCard = ({ id, title, description, isActive }: FeatureItem) => {
             }
           `}
         >
-          {" "}
-          0{id}
+          {id.toString().padStart(2, "0")}
         </h1>
         <div
           className={`flex-1 h-px ${
