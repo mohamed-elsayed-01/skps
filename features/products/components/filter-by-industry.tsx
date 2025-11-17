@@ -14,7 +14,7 @@ const FilterByIndustry = () => {
         </div>
     ))
     return (
-        <div className="bg-[#F9FAFB] pl-[139px] py-10 mx-auto flex items-center">
+        <div className="bg-[#F9FAFB] py-10 mx-auto flex items-center px-[139px] ">
             <div className="w-fit h-fit space-y-4">
                 <span className="block text-xl font-normal leading-5">
                     Filter by Industry
