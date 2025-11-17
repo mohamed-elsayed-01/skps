@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { Plus } from 'lucide-react';
-import { ServiceSection } from "@/features/products/interfaces";
+import { ServiceSection as IServiceSection  } from "@/features/products/interfaces";
 import Card from "@/features/products/components/services/card";
 
 interface IProps {
-    service: ServiceSection
+    service: IServiceSection
 }
 
 const ServiceSection = ({ service }: IProps) => {
@@ -18,7 +18,7 @@ const ServiceSection = ({ service }: IProps) => {
             <div className="flex justify-between items-center py-6">
                 <div className="flex items-center space-x-4">
                     <div className="bg-accent w-12 h-12 rounded-full flex justify-center items-center">
-                        <Image src={service.icon} alt="box" width={13.75} height={13.75} />
+                        <Image src={service.icon} alt={`${service.sectionTitle} icon`} width={13.75} height={13.75} />
                     </div>
                     <div>
                         <span className="block text-2xl font-medium leading-8">
