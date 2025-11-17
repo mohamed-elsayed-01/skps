@@ -5,7 +5,7 @@ import MainWhyChooseUs from "@/features/landing/components/WhyChooseUS/main-why-
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <div>
       <Hero />
       <Features />
       <Pipeline />
