@@ -1,3 +1,4 @@
+"use client"
 import FooterAbout from "@/components/Footer/footer-about";
 import FooterBottomBar from "@/components/Footer/footer-bottom-bar";
 import FooterContactSection from "@/components/Footer/footer-contact-section";
@@ -12,9 +13,7 @@ export default function Footer() {
         <FooterServices />
         <FooterNavigation />
       </div>
-
       <FooterContactSection />
-
       <FooterBottomBar />
     </footer>
   );

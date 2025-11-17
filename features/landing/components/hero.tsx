@@ -17,8 +17,8 @@ const Hero = () => {
                 <p className="text-base font-normal leading-[26px] mt-4">Experts in Preservation, Protection, and Repair</p>
                 <Button className="px-5 py-5 mt-6 text-lg font-semibold">Explore More</Button>
             </div>
-            <div className="mt-[53px] mx-auto w-fit">
-                <Image src={tank} alt="tank" width={1427} height={802} />
+            <div className="mt-[53px] mx-auto w-full max-w-[1427px] relative aspect-1427/802">
+                <Image src={tank} alt="tank" fill className="object-contain" />
             </div>
             <div className="w-[161px] h-[82px] relative mx-auto mt-[88px]">
                 <Image src={halfCircle} alt="halfCircle" fill className="object-contain" />
