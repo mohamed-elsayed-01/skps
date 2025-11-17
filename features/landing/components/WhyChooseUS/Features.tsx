@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { FEATURES } from "../../constants";
-import FeatureCard from "./FeatureCard";
+import FeatureCard from "./feature-card";
 import { useInterval } from "../../hooks/useInterval";
 
 const Features = () => {
