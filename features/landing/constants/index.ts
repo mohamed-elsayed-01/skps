@@ -25,3 +25,14 @@ export const FEATURES: FeatureItem[] = [
       "From the first site visit to long-term asset care, we support you at every stage to ensure lasting integrity.",
   },
 ];
+
+
+export interface MiniFeatureItem {
+  label: string;
+}
+
+export const MINI_FEATURES: MiniFeatureItem[] = [
+  { label: "Seamless Operations" },
+  { label: "Safety Excellence" },
+  { label: "Sustainable Solutions" },
+];
