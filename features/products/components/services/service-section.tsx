@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Plus } from 'lucide-react';
-import { ServiceSection as IServiceSection  } from "@/features/products/interfaces";
+import { ServiceSection as IServiceSection } from "@/features/products/interfaces";
 import Card from "@/features/products/components/services/card";
 
 interface IProps {
@@ -14,7 +14,7 @@ const ServiceSection = ({ service }: IProps) => {
     ))
 
     return (
-        <div className="space-y-4 pb-[58px]">
+        <div className="space-y-4 pb-[58px] max-w-7xl mx-auto">
             <div className="flex justify-between items-center py-6">
                 <div className="flex items-center space-x-4">
                     <div className="bg-accent w-12 h-12 rounded-full flex justify-center items-center">
@@ -31,7 +31,7 @@ const ServiceSection = ({ service }: IProps) => {
                 </div>
                 <Plus className="text-accent size-6" />
             </div>
-            <div className="w-full flex flex-wrap gap-x-[23px] gap-y-[32px]">
+            <div className="w-full grid grid-cols-4 gap-x-[23px] gap-y-[32px]">
                 {RENDER_CARDS}
             </div>
         </div>

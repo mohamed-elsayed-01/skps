@@ -25,7 +25,7 @@ export default function Navbar({ variant, className, ...props }: NavbarProps) {
   const finalVariant = variant ?? (pathname === "/" ? "dark" : "white");
   return (
     <nav className={cn(navbarVariant({ variant: finalVariant }), className)} {...props}>
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
         <NavbarLogo variant={finalVariant} />
         <NavbarLinks variant={finalVariant} />
         <NavbarButton variant={finalVariant} />
