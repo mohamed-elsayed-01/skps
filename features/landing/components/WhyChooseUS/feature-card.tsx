@@ -3,7 +3,7 @@ import { FeatureItem } from "../../constants";
 const FeatureCard = ({ id, title, description, isActive }: FeatureItem) => {
   return (
     <div>
-      <div className="flex items-center mb-6 gap-1">
+      <div className="flex items-center mb-8 gap-1">
         <h1
           className={`
             text-xl font-medium p-2 border rounded-[8px] transition-all duration-500
@@ -23,7 +23,7 @@ const FeatureCard = ({ id, title, description, isActive }: FeatureItem) => {
         ></div>
       </div>
       <div className="pr-6">
-        <h1 className="text-2xl mb-3 font-medium">{title}</h1>
+        <h1 className="text-2xl mb-5 font-medium">{title}</h1>
         <p className="text-[#425062] text-lg max-w-[360px]">{description}</p>
       </div>
     </div>

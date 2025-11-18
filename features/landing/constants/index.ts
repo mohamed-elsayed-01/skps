@@ -1,8 +1,27 @@
+import { StaticImageData } from "next/image";
+
+// services images 
 import compositeEngineeringServices from "@/public/Images/home-services/composite-engineering-services.png";
 import corrosionPreventionCoatings from "@/public/Images/home-services/corrosion-prevention-coatings.png";
 import ultrasonicThicknessGaugess from "@/public/Images/home-services/ultrasonic-thickness-gaugess.png";
 import protectolastWsVci from "@/public/Images/home-services/protectolast-ws-vci.png";
-import { StaticImageData } from "next/image";
+
+// clients logos 
+import adnoc from "@/public/Images/our-clients/ADNOC.png";
+import daleel from "@/public/Images/our-clients/DALEEL.png";
+import dewa from "@/public/Images/our-clients/DEWA.png";
+import dolphin from "@/public/Images/our-clients/DOLPHIN ENERGY.png";
+import dpe from "@/public/Images/our-clients/DPE.png";
+import dugas from "@/public/Images/our-clients/DUGAS.png";
+import emarat from "@/public/Images/our-clients/EMARAT.png";
+import enoc from "@/public/Images/our-clients/ENOC.png";
+import fot from "@/public/Images/our-clients/FOT.png";
+import oq from "@/public/Images/our-clients/OQ.png";
+import oxy from "@/public/Images/our-clients/OXY OMAN.png";
+import pdo from "@/public/Images/our-clients/PDO.png";
+import sewa from "@/public/Images/our-clients/SEWA.png";
+import snoc from "@/public/Images/our-clients/SNOC.png";
+
 
 export interface FeatureItem {
   id: number;
@@ -83,4 +102,21 @@ export const SERVICES: ServiceItem[] = [
       "Water-based polymer designed specially to safeguard metal surfaces.",
     image: protectolastWsVci,
   },
+];
+
+export const CLIENT_LOGOS = [
+  adnoc,
+  daleel,
+  dewa,
+  dolphin,
+  dpe,
+  dugas,
+  emarat,
+  enoc,
+  fot,
+  oq,
+  oxy,
+  pdo,
+  sewa,
+  snoc,
 ];

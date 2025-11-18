@@ -3,6 +3,7 @@ import Features from "@/features/landing/components/Hero/features";
 import Pipeline from "@/features/landing/components/Hero/pipeline";
 import MainWhyChooseUs from "@/features/landing/components/WhyChooseUS/why-choose-us";
 import OurServices from "@/features/landing/components/OurServices/our-services";
+import OurClients from "@/features/landing/components/OurClients/our-clients";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Pipeline />
       <MainWhyChooseUs />
       <OurServices />
+      <OurClients />
     </div>
   );
 }
