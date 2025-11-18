@@ -20,6 +20,7 @@ export default function CardsGrid() {
       <button
         onClick={() => scroll("left")}
         className="absolute -left-6 top-1/2 -translate-y-1/2 bg-accent text-white w-12 h-12 rounded-full flex items-center justify-center"
+          aria-label="Scroll services left"
       >
         <ChevronLeft size={18} />
       </button>
@@ -38,6 +39,7 @@ export default function CardsGrid() {
       <button
         onClick={() => scroll("right")}
         className="absolute -right-6 top-1/2 -translate-y-1/2 bg-accent text-white w-12 h-12 rounded-full flex items-center justify-center"
+          aria-label="Scroll services right"
       >
         <ChevronRight size={18} />
       </button>
