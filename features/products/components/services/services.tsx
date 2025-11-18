@@ -8,7 +8,7 @@ const Services = () => {
     ))
 
     return (
-        <div className="px-[139px] bg-white">
+        <div className="bg-white">
             {RENDER_SERVICES}
         </div>
     )

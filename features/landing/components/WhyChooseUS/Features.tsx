@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { FEATURES } from "../../constants";
-import FeatureCard from "./feature-card";
-import { useInterval } from "../../hooks/useInterval";
+import { FEATURES } from "@/features/landing/constants";
+import FeatureCard from "@/features/landing/components/WhyChooseUS/feature-card";
+import { useInterval } from "@/features/landing/hooks/useInterval";
 
 const Features = () => {
   const [activeIndex, setActiveIndex] = useState(0);

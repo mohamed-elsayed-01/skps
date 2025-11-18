@@ -1,5 +1,5 @@
-import Features from "./features";
-import Heading from "./heading";
+import Features from "@/features/landing/components/WhyChooseUS/Features";
+import Heading from "@/features/landing/components/WhyChooseUS/heading";
 
 const MainWhyChooseUs = () => {
   return (
