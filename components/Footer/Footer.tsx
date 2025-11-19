@@ -8,7 +8,7 @@ import FooterServices from "@/components/Footer/footer-services";
 export default function Footer() {
   return (
     <footer className="w-full bg-[#2D343E] text-gray-300">
-      <div className="container mx-auto px-4 py-14 grid grid-cols-1 md:grid-cols-3 gap-32">
+      <div className="max-w-7xl mx-auto px-4 py-14 grid grid-cols-1 md:grid-cols-3 gap-32">
         <FooterAbout />
         <FooterServices />
         <FooterNavigation />

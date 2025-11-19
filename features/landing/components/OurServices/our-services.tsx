@@ -4,7 +4,7 @@ import Heading from "./heading";
 
 const OurServices = () => {
   return (
-    <div className="py-10 px-4 sm:px-8 md:px-12 lg:px-20 gap-12 w-full flex flex-col items-center">
+    <div className="py-10 px-4 max-w-7xl mx-auto gap-12 w-full flex flex-col items-center">
       {" "}
       <Heading />
       <CardsGrid />
