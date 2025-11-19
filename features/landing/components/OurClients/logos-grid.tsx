@@ -12,7 +12,7 @@ const LogosGrid = () => {
     </div>
   ));
   return (
-    <section className="py-16 px-20">
+    <section className="py-16">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-10 place-items-center">
         {RENDER_LOGOS}
       </div>
