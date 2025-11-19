@@ -134,7 +134,7 @@ export const case_studies = [
   {
     src: frame1,
     heading: "8” External Corrosion using Clock Spring  Composite Repair",
-    describtion: "An external corrosion was found at several locations at on an 8” riser due to neoprene coating damage.",
+    description: "An external corrosion was found at several locations at on an 8” riser due to neoprene coating damage.",
     steps: [
       "Defect area",
       "Clock Spring ® composite sleeve application",
@@ -145,7 +145,7 @@ export const case_studies = [
   {
     src: frame2,
     heading: "48″ Sea Water Header with Revit in 20mm Hole",
-    describtion: "48″ Sea Water header had a severe leak that needed to be sealed using a wooden rivet in 20mm hole.",
+    description: "48″ Sea Water header had a severe leak that needed to be sealed using a wooden rivet in 20mm hole.",
     steps: [
       "Defect area",
       "Clock Spring ® Contour Application",

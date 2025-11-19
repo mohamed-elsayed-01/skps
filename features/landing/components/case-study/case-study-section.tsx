@@ -6,7 +6,7 @@ interface IProps {
     data: {
         src: StaticImageData,
         heading: string,
-        describtion: string,
+        description: string,
         steps: string[]
     },
     reversed?: boolean
@@ -38,7 +38,7 @@ const CaseStudySection = ({ data, reversed = false }: IProps) => {
                         </span>
                         <div className="space-y-[30px] text-[#425062] text-lg leading-[26px] font-normal">
                             <span className="block">
-                                {data.describtion}
+                                {data.description}
                             </span>
                             <ol>
                                 {RENDER_STEPS}

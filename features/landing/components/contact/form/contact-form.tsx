@@ -9,7 +9,7 @@ const ContactForm = () => {
     const { form, onSubmit } = useContactForm();
     return (
         <div>
-            <span className="text-[#111827] text-4xl font-normal leading-10 blcok">Connect with Us</span>
+            <span className="text-[#111827] text-4xl font-normal leading-10 block">Connect with Us</span>
             <form onSubmit={form.handleSubmit(onSubmit)} noValidate>
                 <div className="grid grid-cols-2 gap-6 mt-[39px]">
                     <FormField
@@ -27,7 +27,7 @@ const ContactForm = () => {
                         name={CONTACT_FORM_CONFIG.fields.lastName.name}
                         type={CONTACT_FORM_CONFIG.fields.lastName.type}
                         placeholder={CONTACT_FORM_CONFIG.fields.lastName.placeholder}
-                        required={CONTACT_FORM_CONFIG.fields.firstName.required}
+                        required={CONTACT_FORM_CONFIG.fields.lastName.required}
                         className="col-span-1"
                     />
                     <FormField

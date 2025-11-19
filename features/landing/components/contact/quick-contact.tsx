@@ -5,8 +5,8 @@ const QuickContact = () => {
 
     const RENDER_CONTACT_INFO_WAYS = CONTACT_INFO.map((c) => (
         <div key={c.value} className="flex gap-4 items-start">
-            <div className="min-w-[44px] min-h-[44px] rounded-full bg-[#e1e1ee] flex justify-center items-center">
-                <Image src={c.icon} width={17.5} height={17.5} alt={c.value} />
+            <div className="min-w-[44px] min-h-[44px] rounded-full bg-[#e1e1ee] flex justify-center items-center" aria-hidden="true" >
+                <Image src={c.icon} width={17.5} height={17.5} alt={c.type} />
             </div>
             <div className="space-y-1">
                 <span className="block text-[#111827] leading-6 font-normal text-base">

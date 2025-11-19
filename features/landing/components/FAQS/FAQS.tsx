@@ -4,7 +4,7 @@ import FAQSAccordion from "./FAQS-accordion";
 const FAQS = () => {
     return (
         <div className="py-20 max-w-7xl mx-auto mb-20">
-            <div className="w-full grid grid-cols-[568px_568px] justify-between gap-16">
+            <div className="w-full grid grid-cols-1 gap-16 lg:grid-cols-[568px_568px] lg:justify-between">
                 <div className="space-y-4">
                     <span className="w-fit text-sm font-medium flex py-[6px] px-[12px] justify-center items-center gap-2 rounded-4xl border border-[#D5DBE2] bg-white">
                         FAQS

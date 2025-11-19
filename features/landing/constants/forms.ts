@@ -26,14 +26,14 @@ export const CONTACT_FORM_CONFIG = {
         phone: {
             name: "phone",
             type: "text",
-            label: "phone",
+            label: "Phone",
             required: true,
             placeholder: "Your Phone Number",
         },
         email: {
             name: "email",
             type: "text",
-            label: "email",
+            label: "Email",
             required: true,
             placeholder: "Your@email.com",
         },
@@ -52,7 +52,7 @@ export const CONTACT_FORM_CONFIG = {
         projectDescription: {
             name: "projectDescription",
             type: "textarea",
-            label: "projectDescription",
+            label: "Project Description",
             placeholder: "Please describe your project requirements",
             required: true,
         },
