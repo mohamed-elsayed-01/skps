@@ -7,7 +7,7 @@ import OurClients from "@/features/landing/components/OurClients/our-clients";
 import CaseStudySection from "@/features/landing/components/case-study/case-study-section";
 import { case_studies } from "@/features/landing/constants";
 import FAQS from "@/features/landing/components/FAQS/FAQS";
-import Cta from "@/features/landing/components/cta/cta";
+import Cta from "@/components/cta/cta";
 import ContactSection from "@/features/landing/components/contact/contact-section";
 
 export default function Home() {

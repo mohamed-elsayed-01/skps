@@ -1,5 +1,10 @@
 import grid from "@/public/Images/grid.png"
-const Cta = () => {
+import { Button } from "@/components/ui/button";
+
+interface IProps {
+    showButton?: boolean
+}
+const Cta = ({ showButton = false }: IProps) => {
     return (
         <div className="w-full py-[160px] bg-[#2D343E] relative">
             <div style={{ backgroundImage: `url(${grid.src})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center" }} className="absolute inset-0 z-1 w-full h-full" />
@@ -15,6 +20,13 @@ const Cta = () => {
                         We deliver change.
                     </span>
                 </div>
+                {
+                    showButton && (
+                        <div className="mt-[56px] w-fit mx-auto">
+                            <Button className="mx-auto py-[20px]! px-[20px]">Get a Free Quotation</Button>
+                        </div>
+                    )
+                }
             </div>
         </div>
     )

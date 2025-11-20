@@ -1,7 +1,15 @@
+import Cta from "@/components/cta/cta";
 import FilterByIndustry from "@/features/products/components/filter-by-industry";
 import Hero from "@/features/products/components/hero";
 import Search from "@/features/products/components/search";
 import Services from "@/features/products/components/services/services";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Products",
+  description: "Skps Products",
+ 
+};
 
 const ProductsPage = () => {
   return (
@@ -13,6 +21,7 @@ const ProductsPage = () => {
         <FilterByIndustry />
         <Services />
       </div>
+      <Cta showButton />
     </div>
   );
 };
