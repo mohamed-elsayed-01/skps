@@ -1,0 +1,65 @@
+export const CONTACT_FORM_CONFIG = {
+    fields: {
+        firstName: {
+            name: "firstName",
+            type: "text",
+            label: "First Name",
+            required: true,
+            placeholder: "First name",
+        },
+        lastName: {
+            name: "lastName",
+            type: "text",
+            label: "Last Name",
+            required: true,
+            placeholder: "Last name",
+        },
+        company: {
+            name: "company",
+            type: "text",
+            label: "Company",
+            required: true,
+            placeholder: "e.g. ABC",
+        },
+        phone: {
+            name: "phone",
+            type: "text",
+            label: "Phone",
+            required: true,
+            placeholder: "Your Phone Number",
+        },
+        email: {
+            name: "email",
+            type: "text",
+            label: "Email",
+            required: true,
+            placeholder: "Your@email.com",
+        },
+        serviceCategory: {
+            name: "serviceCategory",
+            type: "select",
+            label: "Service Category",
+            required: true,
+            placeholder: "Select Service Category",
+            options: [
+                { value: "FIT", label: "Fit" },
+                { value: "GROUP", label: "Group" },
+                { value: "BOTH", label: "Both" },
+            ],
+        },
+        projectDescription: {
+            name: "projectDescription",
+            type: "textarea",
+            label: "Project Description",
+            placeholder: "Please describe your project requirements",
+            required: true,
+        },
+        privacyPolicy: {
+            name: "privacyPolicy",
+            type: "checkbox",
+            label: "I agree to the processing of my personal data according to SKPS's Privacy Policy",
+            placeholder: "I agree to the processing of my personal data according to SKPS's Privacy Policy",
+            required: true,
+        },
+    },
+} as const;
