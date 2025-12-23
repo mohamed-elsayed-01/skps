@@ -11,7 +11,7 @@ const Hero = ({ children, img }: IProps) => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className="w-full h-[400px] bg-black flex justify-center items-center"
+      className="w-full h-[400px] bg-black"
     >
       {children}
     </div>

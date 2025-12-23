@@ -7,7 +7,9 @@ import Hero from "@/components/shared/hero";
 const ProductsHero = () => {
     return (
         <Hero img={heroImg.src}>
-            <Search />
+            <div className="w-full h-full flex justify-center items-center">
+                <Search />
+            </div>
         </Hero>
     );
 };

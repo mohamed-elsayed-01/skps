@@ -14,75 +14,42 @@ const ContactForm = () => {
                 <div className="grid grid-cols-2 gap-6 mt-[39px]">
                     <FormField
                         form={form}
-                        label={CONTACT_FORM_CONFIG.fields.firstName.label}
-                        name={CONTACT_FORM_CONFIG.fields.firstName.name}
-                        type={CONTACT_FORM_CONFIG.fields.firstName.type}
-                        placeholder={CONTACT_FORM_CONFIG.fields.firstName.placeholder}
-                        required={CONTACT_FORM_CONFIG.fields.firstName.required}
+                        {...CONTACT_FORM_CONFIG.fields.firstName}
                         className="col-span-1"
                     />
                     <FormField
                         form={form}
-                        label={CONTACT_FORM_CONFIG.fields.lastName.label}
-                        name={CONTACT_FORM_CONFIG.fields.lastName.name}
-                        type={CONTACT_FORM_CONFIG.fields.lastName.type}
-                        placeholder={CONTACT_FORM_CONFIG.fields.lastName.placeholder}
-                        required={CONTACT_FORM_CONFIG.fields.lastName.required}
+                        {...CONTACT_FORM_CONFIG.fields.lastName}
                         className="col-span-1"
                     />
                     <FormField
                         form={form}
-                        label={CONTACT_FORM_CONFIG.fields.email.label}
-                        name={CONTACT_FORM_CONFIG.fields.email.name}
-                        type={CONTACT_FORM_CONFIG.fields.email.type}
-                        placeholder={CONTACT_FORM_CONFIG.fields.email.placeholder}
-                        required={CONTACT_FORM_CONFIG.fields.email.required}
+                        {...CONTACT_FORM_CONFIG.fields.email}
                         className="col-span-1"
                     />
                     <FormField
                         form={form}
-                        label={CONTACT_FORM_CONFIG.fields.phone.label}
-                        name={CONTACT_FORM_CONFIG.fields.phone.name}
-                        type={CONTACT_FORM_CONFIG.fields.phone.type}
-                        placeholder={CONTACT_FORM_CONFIG.fields.phone.placeholder}
-                        required={CONTACT_FORM_CONFIG.fields.phone.required}
+                        {...CONTACT_FORM_CONFIG.fields.phone}
                         className="col-span-1"
                     />
                     <FormField
                         form={form}
-                        label={CONTACT_FORM_CONFIG.fields.company.label}
-                        name={CONTACT_FORM_CONFIG.fields.company.name}
-                        type={CONTACT_FORM_CONFIG.fields.company.type}
-                        placeholder={CONTACT_FORM_CONFIG.fields.company.placeholder}
-                        required={CONTACT_FORM_CONFIG.fields.company.required}
+                        {...CONTACT_FORM_CONFIG.fields.company}
                         className="col-span-2"
                     />
                     <FormField
                         form={form}
-                        label={CONTACT_FORM_CONFIG.fields.serviceCategory.label}
-                        name={CONTACT_FORM_CONFIG.fields.serviceCategory.name}
-                        type={CONTACT_FORM_CONFIG.fields.serviceCategory.type}
-                        placeholder={CONTACT_FORM_CONFIG.fields.serviceCategory.placeholder}
-                        required={CONTACT_FORM_CONFIG.fields.serviceCategory.required}
-                        options={CONTACT_FORM_CONFIG.fields.serviceCategory.options}
+                        {...CONTACT_FORM_CONFIG.fields.serviceCategory}
                         className="col-span-2"
                     />
                     <FormField
                         form={form}
-                        label={CONTACT_FORM_CONFIG.fields.projectDescription.label}
-                        name={CONTACT_FORM_CONFIG.fields.projectDescription.name}
-                        type={CONTACT_FORM_CONFIG.fields.projectDescription.type}
-                        placeholder={CONTACT_FORM_CONFIG.fields.projectDescription.placeholder}
-                        required={CONTACT_FORM_CONFIG.fields.projectDescription.required}
+                        {...CONTACT_FORM_CONFIG.fields.projectDescription}
                         className="col-span-2"
                     />
                     <FormField
                         form={form}
-                        label={CONTACT_FORM_CONFIG.fields.privacyPolicy.label}
-                        name={CONTACT_FORM_CONFIG.fields.privacyPolicy.name}
-                        type={CONTACT_FORM_CONFIG.fields.privacyPolicy.type}
-                        placeholder={CONTACT_FORM_CONFIG.fields.privacyPolicy.placeholder}
-                        required={CONTACT_FORM_CONFIG.fields.privacyPolicy.required}
+                        {...CONTACT_FORM_CONFIG.fields.privacyPolicy}
                         className="col-span-2"
                     />
                 </div>
