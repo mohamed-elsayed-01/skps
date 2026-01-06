@@ -58,23 +58,27 @@ export const services: ServiceSection[] = [
         sectionDescription: "Comprehensive solutions to prevent and control corrosion",
         items: [
             {
+                id: 1,
                 title: "VISCOTAQ™ - Viscous Elastic Corrosion Prevention Coatings",
                 description: "Conformable and water-displacing coatings for long-term protection.",
                 src: cframe1
             },
             {
+                id: 2,
                 title: "Cathodic Protection",
                 description:
                     "Supply of CP Materials for Pre-stressed concrete pipes Electrodes, Cables, Isolation and Surge Protection.",
                 src: cframe2
             },
             {
+                id: 3,
                 title: "PROTECTOLAST® Corrosion Inhibitors",
                 description:
                     "Water-soluble powder designed specially to safeguard metal surfaces.",
                 src: cframe3
             },
             {
+                id: 4,
                 title: "DEVCON® - Cold Welding Polymeric Solutions",
                 description:
                     "Metal-filled epoxy technology that allows for fast economical permanent repairs.",
@@ -82,6 +86,7 @@ export const services: ServiceSection[] = [
 
             },
             {
+                id: 5,
                 title: "HUMIDUR® - Anti Corrosion Epoxy Coating",
                 description:
                     "Maintenance-free lifetime protection against corrosion.",
@@ -96,22 +101,26 @@ export const services: ServiceSection[] = [
             "Advanced repair systems to restore integrity and extend service life",
         items: [
             {
+                id: 6,
                 title: "Composite Engineering Services",
                 description: "Industry-standard composite pipe repair system.",
                 src: cframe6
             },
             {
+                id: 7,
                 title: "RPR® - Efficient Coating Removal by Induction",
                 description:
                     "The induction disbonder works by the principle of induction.",
                 src: cframe7
             },
             {
+                id: 8,
                 title: "SPITZE HP Clamp",
                 description: "Quick-curing emergency leak repair solutions.",
                 src: cframe8
             },
             {
+                id: 9,
                 title: "Heat Shrinkable Wrap Around",
                 description:
                     "Heat shrinkable wrap-around sleeve is designed for corrosion protection of girth weld joint buried steel.",
@@ -126,6 +135,7 @@ export const services: ServiceSection[] = [
             "Tools to detect, assess, and monitor asset integrity",
         items: [
             {
+                id: 10,
                 title:
                     "PROTECTOSEAL® - Vapor and Flame Control Equipment",
                 description:
@@ -133,18 +143,21 @@ export const services: ServiceSection[] = [
                 src: cframe10
             },
             {
+                id: 11,
                 title: "CYGNUS® - Ultrasonic Thickness Gauges",
                 description:
                     "Designed for taking reliable thickness measurements in Zone 0 Atmospheres.",
                 src: cframe14
             },
             {
+                id: 12,
                 title: "PIPEOTECH®",
                 description:
                     "Guaranteed leak-proof connection for the entire lifespan of your pipeline.",
                 src: cframe11
             },
             {
+                id: 13,
                 title: "Protectolast® - Corrosion Monitoring System",
                 description:
                     "Monitoring System to assess the corrosion rate.",
@@ -159,6 +172,7 @@ export const services: ServiceSection[] = [
             "Protect assets in transit or storage environments",
         items: [
             {
+                id: 14,
                 title: "VCI Wrapping Materials",
                 description:
                     "VCI wrapping material prevents metal corrosion by releasing protective vapor molecules.",

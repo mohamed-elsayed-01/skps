@@ -4,15 +4,22 @@ import heroImg from "@/public/Images/service/service-hero.png";
 import downloadIcon from "@/public/Images/service/download-icon.svg";
 import Image from "next/image";
 
-const ServicesHero = () => {
+
+interface IProps {
+    heroImg: string;
+    header: string;
+    subHeader: string;
+}
+
+const ServicesHero = ({ heroImg, header, subHeader }: IProps) => {
     return (
-        <Hero img={heroImg.src}>
+        <Hero img={heroImg}>
             <div className="h-full max-w-7xl mx-auto flex flex-col justify-center">
                 <h1 className="text-white text-4xl font-bold leading-[40px]">
-                    Composite Engineering Services
+                    {header}
                 </h1>
                 <p className="w-full max-w-[626px] text-white text-lg leading-7 mt-[15.5px]">
-                    Advanced engineering solutions for critical infrastructure repair, reinforcement, and protection using state-of-the-art composite materials and methodologies.
+                    {subHeader}
                 </p>
                 <div className="flex gap-4 mt-[32.5px]">
                     <Button className="bg-accent hover:bg-accent text-white text-base py-[23px]!">

@@ -1,9 +1,16 @@
+"use client"
 import { ArrowRight } from "lucide-react";
 import { ServiceItem } from "@/features/products/interfaces";
+import { useRouter } from "next/navigation";
 interface IProps {
   card: ServiceItem;
 }
 const Card = ({ card }: IProps) => {
+
+  const router = useRouter();
+  const handleOnClick = () => {
+    router.push(`/products/${card.id}`);
+  }
   return (
     <div className="h-full pb-4 rounded-2xl shadow-[0_4px_20px_0_rgba(0,0,0,0.10)] overflow-hidden flex flex-col bg-white">
       <div className="flex flex-col gap-4 flex-1">
@@ -22,7 +29,7 @@ const Card = ({ card }: IProps) => {
             {card.description}
           </span>
 
-          <div className="mt-auto flex items-center gap-1 text-accent pt-2">
+          <div onClick={handleOnClick} className="mt-auto flex items-center gap-1 text-accent pt-2">
             <span className="block text-sm font-normal leading-5">
               Learn More
             </span>
