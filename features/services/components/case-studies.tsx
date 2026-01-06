@@ -1,20 +1,27 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { caseStudies } from "@/features/services/constants";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 
-const CaseStudies = () => {
+
+interface IProps {
+    caseStudies: {
+        id: number;
+        image: StaticImageData;
+        title: string;
+        description: string;
+    }[];
+}
+
+const CaseStudies = ({ caseStudies }: IProps) => {
     const RENDER_CASE_STUDIES = caseStudies.map((c, index) => {
         return (
             <div key={index} className="h-full">
                 <div className="w-full h-[210px] relative ">
-                    <Image src={c.img} alt={c.title} fill className="object-cover" />
+                    <Image src={c.image} alt={c.title} fill className="object-cover" />
                 </div>
                 <div className="mt-4">
-                    <span className="block text-accent text-sm font-medium leading-5">
-                        {c.category}
-                    </span>
                     <span className="block text-[#1F2937] leading-7 font-bold text-xl mt-2">
                         {c.title}
                     </span>

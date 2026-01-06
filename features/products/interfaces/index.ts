@@ -1,9 +1,10 @@
 import { StaticImageData } from "next/image";
 
 export interface ServiceItem {
+    id: number;
     title: string;
     description: string;
-    src : StaticImageData
+    src: StaticImageData
 }
 
 export interface ServiceSection {
